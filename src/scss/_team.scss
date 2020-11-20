@@ -1,0 +1,33 @@
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	.cardContainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		min-width: 50%;
+	}
+
+	.card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		border-radius: 5px;
+		margin: 2rem;
+		text-align: center;
+		width: 200px;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	p {
+		padding: 0.5em;
+	}
+
+	img {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+}

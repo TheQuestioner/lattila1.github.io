@@ -1,0 +1,36 @@
+.whatWeDo {
+	background: #e6e6e6;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 1rem;
+
+	@media (min-width: 60rem) {
+		flex-direction: row;
+	}
+
+	a {
+		text-align: center;
+		padding: 1rem;
+		margin: 1rem;
+		background:  #fff;
+		display: block;
+		text-decoration: none;
+		color: #222;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+		@media (min-width: 60rem) {
+			flex-direction: row;
+			width: 33.3%;
+		}
+
+		p {
+			text-align: justify;
+		}
+	
+	img {
+		height: 120px;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.footer {
+	margin-top: 2rem;
+	background: $footerColor;
+
+	ul {
+		display: flex;
+		padding: 2rem 0;
+		justify-content: space-around;
+	}
+
+	p {
+		text-align: center;
+		margin: 0;
+		padding: 0 1rem 1rem 1rem;
+	}
+}

@@ -1,0 +1,75 @@
+$desktopWidth: 40rem;
+$headerColor: #64dd17;
+$headerHeight: 80px;
+$footerColor: #9cff57;
+
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #f5f5f5;
+	color: #222;
+	margin: 0;
+	padding: 0;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 2rem;
+	margin: 4rem 0 1.5rem 0;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background: #fff;
+	margin: 0 auto;
+	max-width: 1600px;
+
+	@media (min-width: $desktopWidth) {
+		background-image: url("../img/background.svg");
+		background-repeat: no-repeat;
+		background-position-y: 0px;
+		background-size: 100% 240px;
+	}
+}
+
+.comingSoon {
+	h1 {
+		font-size: 3.5rem;
+		text-align: center;
+		margin: 4rem;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	p {
+		color: rgb(100, 100, 100);
+		font-size: 4rem;
+		margin: 3rem;
+		text-align: center;
+
+		marquee {
+			background-color: rgb(255, 249, 158);
+			color: red;
+			font-size: 3rem;
+			font-weight: 700;
+		}
+	}
+}
